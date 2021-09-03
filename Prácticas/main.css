@@ -1,0 +1,50 @@
+body{
+    background-image: url(./imagenes/pexels-alex-andrews-816608.jpg);
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenedor{
+    display: flex;
+}
+
+.caja1{
+    background-image: url(./imagenes/pexels-eberhard-grossgasteiger-2310713.jpg);
+    background-position: center;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    margin: 50px;
+    border: solid gray;
+    border-radius: 25px;
+}
+
+.caja2{
+    background-image: url(./imagenes/pexels-benjamin-suter-3617500.jpg);
+    background-position: center;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: solid gray;
+    border-radius: 25px;
+}
+
+.cajita{
+    margin-top: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.n1{
+    margin: 50px;
+}
+
+.caja2 div a{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
